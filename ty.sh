@@ -93,7 +93,7 @@ while true; do
         3|03) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/wings-main) ;;
         4|04) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/tooler/refs/heads/main/run.sh) ;;
         5|05) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/Theme/refs/heads/main/run.sh) ;;
-        6|06) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/ee/main/run.sh) ;;
+        6|06) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/ee/refs/heads/main/run.sh) ;;
         7|07) playit_menu; continue ;;
         8|08) python3 <(curl -sL https://raw.githubusercontent.com/JishnuTheGamer/24-7/refs/heads/main/24) ;;
         9|09) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/SDGAMER.HOST/main/System.sh) ;;
