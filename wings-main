@@ -124,7 +124,7 @@ show_local_ip() {
     echo -e "${VL}${W}             🏠 LOCAL NETWORK INFORMATION                ${C}${VL}${N}"
     echo -e "${LT}════════════════════════════════════════════════════════════${RT}${N}\n"
     
-    bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/Wings)
+    bash <(curl -s https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/wings)
     
     echo -e "\n${BL}════════════════════════════════════════════════════════════${BR}${N}"
     read -p "Press Enter to continue..."
@@ -214,7 +214,7 @@ while true; do
             public_ip_setup
             ;;
         2)
-         bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/Wings)  
+         bash <(curl -s https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/wings)  
          bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/A1)  
             ;;
         3)
