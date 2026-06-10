@@ -146,7 +146,7 @@ clear
 
 # ---> Updated Final Execution <---
 if [[ "$choice" == "1" ]]; then
-    bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/SDGAMER.HOST/main/ty.sh)
+    bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/ty.sh)
 elif [[ "$choice" == "2" ]]; then
     bash <(curl -sL https://raw.githubusercontent.com/skahost/code/main/hack.sh)
 fi
