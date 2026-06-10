@@ -27,7 +27,7 @@ banner() {
     local FAKE_CPU=$(( ( RANDOM % 35 ) + 10 )) # 10% theke 44% er moddhe thakbe
     local FAKE_RAM=$(( ( RANDOM % 40 ) + 25 )) # 25% theke 64% er moddhe thakbe
 
-    echo -e "${C} ▬▬▬ ${W}🚀 HOST: ${C}SDGAMER  ${W}│ ⏱️ ${C}${UPTIME} ${W}│ 🧠 ${C}CPU: ${FAKE_CPU}% ${C}▬▬▬${NC}"
+    echo -e "${C} ▬▬▬ ${W}🚀 HOST: ${C}Shubham  ${W}│ ⏱️ ${C}${UPTIME} ${W}│ 🧠 ${C}CPU: ${FAKE_CPU}% ${C}▬▬▬${NC}"
     echo -e "${B} ███████╗██╗  ██╗██╗   ██╗██████╗ ██╗  ██╗ █████╗ ███╗   ███╗ ${NC}"
     echo -e "${P} ██╔════╝██║  ██║██║   ██║██╔══██╗██║  ██║██╔══██╗████╗ ████║ ${NC}"
     echo -e "${C} ███████╗███████║██║   ██║██████╔╝███████║███████║██╔████╔██║ ${NC}"
