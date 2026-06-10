@@ -224,7 +224,7 @@ while true; do
             clear
             echo -e "${M}${TL}════════════════════════════════════════════════════════════${TR}${N}"
             echo -e "${VL}${W}                    👋 GOODBYE!                          ${M}${VL}${N}"
-            echo -e "${VL}${Y}          Thank you for using Mack Control Panel         ${M}${VL}${N}"
+            echo -e "${VL}${Y}          Thank you for using Wings Control Panel         ${M}${VL}${N}"
             echo -e "${BL}════════════════════════════════════════════════════════════${BR}${N}\n"
             exit 0
             ;;
