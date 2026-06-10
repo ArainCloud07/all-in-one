@@ -88,8 +88,8 @@ while true; do
     read -r mainopt
 
     case "$mainopt" in
-        1|01) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/VPS/main/Environment) ;;
-        2|02) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/Panel/main/run.sh) ;;
+        1|01) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/Environment) ;;
+        2|02) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/Panel/refs/heads/main/run.sh) ;;
         3|03) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/run.sh) ;;
         4|04) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/tooler/main/run.sh) ;;
         5|05) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/Theme/main/run.sh) ;;
