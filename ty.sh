@@ -90,14 +90,14 @@ while true; do
     case "$mainopt" in
         1|01) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/Environment) ;;
         2|02) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/Panel/refs/heads/main/run.sh) ;;
-        3|03) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/run.sh) ;;
-        4|04) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/tooler/main/run.sh) ;;
-        5|05) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/Theme/main/run.sh) ;;
+        3|03) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/wings-main) ;;
+        4|04) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/tooler/refs/heads/main/run.sh) ;;
+        5|05) bash <(curl -sL https://raw.githubusercontent.com/ArainCloud07/Theme/refs/heads/main/run.sh) ;;
         6|06) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/ee/main/run.sh) ;;
         7|07) playit_menu; continue ;;
         8|08) python3 <(curl -sL https://raw.githubusercontent.com/JishnuTheGamer/24-7/refs/heads/main/24) ;;
         9|09) bash <(curl -sL https://raw.githubusercontent.com/sdgamer8263-sketch/SDGAMER.HOST/main/System.sh) ;;
-        0|00) echo -e "\n${Y}👋 Closing SDGAMER Tool... Goodbye!${NC}"; exit 0 ;;
+        0|00) echo -e "\n${Y}👋 Closing Shubham Tool... Goodbye!${NC}"; exit 0 ;;
         *) echo -e "${R}⚠️ Wrong choice!${NC}"; sleep 1 ;;
     esac
 
