@@ -60,7 +60,7 @@ echo ""
 # 3. OPTION 1: PREMIUM CLOUD DASHBOARD UI
 # ==========================================
 if [[ "$choice" == "1" ]]; then
-    echo -e "    ${C_CYAN}❖ SKA HOSTING CLOUD SYSTEM ❖${NC}\n"
+    echo -e "    ${C_CYAN}❖ Shubham Infra ❖${NC}\n"
     
     logs=("Establishing Secure Tunnel..." "Connecting to Server Nodes..." "Allocating CPU & RAM..." "Finalizing Container Setup...")
     spinners=("⠋" "⠙" "⠹" "⠸" "⠼" "⠴" "⠦" "⠧" "⠇" "⠏")
