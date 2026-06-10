@@ -218,7 +218,7 @@ while true; do
          bash <(curl -s https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/A1)  
             ;;
         3)
-        bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/Wings-setup/main/D)  
+        bash <(curl -s https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/wings-A)  
             ;;
         0)
             clear
