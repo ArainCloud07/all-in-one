@@ -18,7 +18,7 @@ ARROW="➤"
 # Function to print section headers
 print_header() {
     echo -e "\n${MAGENTA}╔══════════════════════════════════════════╗${NC}"
-    echo -e "${MAGENTA}║${NC}${CYAN} SDGAMER  $1${NC}"
+    echo -e "${MAGENTA}║${NC}${CYAN} Shubham  $1${NC}"
     echo -e "${MAGENTA}╚══════════════════════════════════════════╝${NC}"
 }
 
