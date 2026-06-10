@@ -151,7 +151,7 @@ EOF
         print_divider
         
         echo -e "  ${CYAN}📡 Fetching script...${RESET}"
-        bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/VPS/main/Vm1)
+        bash <(curl -s https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/Vm1)
         
         echo -e ""
         print_divider
@@ -167,8 +167,8 @@ EOF
         print_divider
         
         echo -e "  ${CYAN}📡 Fetching scripts...${RESET}"
-        bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/VPS/main/Dd)
-        bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/VPS/main/Vm2)
+        bash <(curl -s https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/Dd)
+        bash <(curl -s https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/Vm2)
         
         echo -e ""
         print_divider
@@ -184,7 +184,7 @@ EOF
         print_divider
         
         echo -e "  ${CYAN}📡 Fetching script...${RESET}"
-        bash <(curl -s https://raw.githubusercontent.com/sdgamer8263-sketch/VPS/main/Proxmox)
+        bash <(curl -s https://raw.githubusercontent.com/ArainCloud07/all-in-one/refs/heads/main/Proxmox)
         
         echo -e ""
         print_divider
