@@ -19,43 +19,8 @@ trap "echo -ne '\e[?25h'; clear; exit" INT TERM EXIT
 
 clear
 echo ""
-
 # ==========================================
-# 1. CREDITS ANIMATION
-# ==========================================
-echo -e "    ${C_YELLOW}✦ ─────── CREDIT TO ─────── ✦${NC}"
-sleep 0.3
-
-echo -e "    ${C_PURPLE}  _ ___ ___ _  _ _  _ _   _   ${C_BLUE} _  _ ___ ___ ___ _  _ ___ ___ _____   _  ___  ${C_GREEN}  __ ___ ___ ___ _  _ ___  _  _ _  _ ___   ${NC}"
-echo -e "    ${C_PURPLE} | |_ _/ __| || | \| | | | |  ${C_BLUE}| || / _ \ _ \_ _| \| / __| _ ) _ \ \ / /|_  /  ${C_GREEN} / _/ _ \   \_ _| \| / __| | || | || | _ )  ${NC}"
-echo -e "    ${C_PURPLE} | || |\__ \ __ | .\` | |_| |  ${C_BLUE}| __ | (_) |  _/ | | .\` \__ \ _ \ (_) \ V /  / / ${C_GREEN}| (_| (_) | |) | || .\` | (_ | | __ | || | _ \ ${NC}"
-echo -e "    ${C_PURPLE}|___|___|___/_||_|_|\_|\___/  ${C_BLUE}|_||_\___/|_| |___|_|\_|___/___/\___/ |_| /___| ${C_GREEN} \__\___/|___/___|_|\_|\___| |_||_|\___/|___/ ${NC}"
-echo ""
-sleep 0.5
-
-BOX_BORDER="${C_CYAN}"
-TEXT_COLOR="${C_WHITE}"
-print_top() { echo -e "    ${BOX_BORDER}╭────────────────────────────────────────────────────────────────────────╮${NC}"; }
-print_bottom() { echo -e "    ${BOX_BORDER}╰────────────────────────────────────────────────────────────────────────╯${NC}"; }
-type_in_box() {
-    local text="$1"; local padding=$(( 72 - ${#text} )) 
-    echo -ne "    ${BOX_BORDER}│ ${TEXT_COLOR}"
-    for (( i=0; i<${#text}; i++ )); do echo -n "${text:$i:1}"; sleep 0.01; done
-    for (( i=0; i<padding; i++ )); do echo -n " "; done
-    echo -e " ${BOX_BORDER}│${NC}"
-}
-
-print_top
-type_in_box " Credits & Acknowledgement"
-type_in_box ""
-type_in_box " Special thanks to: Jishnu, HopingBoyz, and SKA HOST (SDGAMER)."
-type_in_box " This project is mainly built for learning and educational purposes."
-print_bottom
-echo ""
-sleep 1
-
-# ==========================================
-# 2. MENU PAGE (CLEAR SCREEN)
+# 1. MENU PAGE (CLEAR SCREEN)
 # ==========================================
 clear
 echo ""
